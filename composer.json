@@ -11,9 +11,10 @@
     "require": {
         "php": ">=5.4.4"
     },
+    "target-dir": "Intaro/ColorInterpolator",
     "autoload": {
         "psr-0": {
-            "Intaro\\": ""
+            "Intaro\\ColorInterpolator": ""
         }
     }
 }
