@@ -1,0 +1,19 @@
+{
+    "name": "intaro/color-interpolator",
+    "description": "Interpolate color in the spectral band",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Intaro Soft",
+            "email": "mail@intaro.ru"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.4"
+    },
+    "autoload": {
+        "psr-0": {
+            "Intaro\\": ""
+        }
+    }
+}
