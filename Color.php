@@ -39,7 +39,7 @@ class Color
 
     public function getRgb()
     {
-        return dechex($this->r*255) . dechex($this->g*255) . dechex($this->b*255);
+        return dechex((int) $this->r*255) . dechex((int) $this->g*255) . dechex((int) $this->b*255);
     }
 
     public function setHsv(array $hsv)
